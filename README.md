@@ -10,7 +10,9 @@ To understand what relationship types are possible and map unstructured natural 
 ### Requirements
 
 torch='1.3.1'
+
 transformers='2.7.0'
+
 keras
 
 ### Dataset
@@ -19,11 +21,11 @@ All train dataset can be found [here](https://zenodo.org/record/1035500#.Xe3uR5M
 
 We used [Kaggle-COVID-19-dataset](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge/tasks) to extract sentences what contains more than two biomedical entities and put them in `./data/COVID-19`. If you have a new dataset, please save it in `./data/YourDatasetName`, the format as follows.
 
-start_entity | end_entity | start_entity_type | end_entity_type | marked_sentence
-- | - | - | - | -
-COVID-19 | Pharyngitis | Disease | Disease | end_entity, bronchitis, and start_entity represent the most common respiratory tract infections
-remdesivir | MERS | Chemical | Disease | The data presented here support testing of the efficacy of start_entity treatment in the context of a end_entity clinical trial
-remdesivir | COVID-19 | Chemical | Disease | Drugs are possibly effective for end_entity include: start_entity, lopinavir ritonavir, lopinavir ritonavir combined with interferon-, convalescent plasma, and monoclonal antibodies
+| start_entity | end_entity | start_entity_type | end_entity_type | marked_sentence |
+| - | - | - | - | - |
+| COVID-19 | Pharyngitis | Disease | Disease | end_entity, bronchitis, and start_entity represent the most common respiratory tract infections |
+| remdesivir | MERS | Chemical | Disease | The data presented here support testing of the efficacy of start_entity treatment in the context of a end_entity clinical trial |
+| remdesivir | COVID-19 | Chemical | Disease | Drugs are possibly effective for end_entity include: start_entity, lopinavir ritonavir, lopinavir ritonavir combined with interferon-, convalescent plasma, and monoclonal antibodies |
 
 ### Pretrained model
 
