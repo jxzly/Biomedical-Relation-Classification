@@ -19,7 +19,7 @@ keras
 
 All train dataset can be found [here](https://zenodo.org/record/1035500#.Xe3uR5MzZTZ). You can download them manually and put them in the `./data`.
 
-We used [Kaggle-COVID-19-dataset](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge/tasks) to extract sentences what contains more than two biomedical entities and put them in `./data/COVID-19`. If you have a new dataset, please save it in `./data/YourDatasetName`, the format as follows.
+We used [Kaggle-COVID-19-dataset](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge) to extract sentences what contains more than two biomedical entities and put them in `./data/COVID-19`. If you have a new dataset, please save it in `./data/YourDatasetName`, the format as follows.
 
 | start_entity | end_entity | start_entity_type | end_entity_type | marked_sentence |
 | - | - | - | - | - |
